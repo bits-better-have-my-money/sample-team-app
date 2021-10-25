@@ -1,5 +1,5 @@
 class MessagesController < ApplicationController
-  def index
+  def show
     render json: {message: "Happy Halloween!"}
   end
 end
