@@ -7,4 +7,5 @@ Rails.application.routes.draw do
   get "/products" => "products#index"
   get "/jon_messages" => "jon_messages#index"
   get "/pages/:id" => "pages#show"
+  get "/tests" => "tests#index"
 end
