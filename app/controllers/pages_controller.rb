@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
   def index
-    render json: { message: "Nikki Sanmarco" }
+    render json: { message: "Hello World" }
   end
 
   def show
